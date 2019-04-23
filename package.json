@@ -1,0 +1,19 @@
+{
+  "name": "formater",
+  "version": "0.0.1",
+  "description": "format note app",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.4"
+  }
+}
